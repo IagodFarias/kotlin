@@ -1,0 +1,29 @@
+val valor = 5
+
+when (valor) {
+    1 -> println("Um")
+    2 -> println("Dois")
+    3 -> println("Três")
+    else -> println("Outro valor")
+}
+// é como se o valor entrasse como parametro do when, e dependendo do valor ele executa uma atividade diferente.
+
+
+// quando voce usa o when tem que garantir que todas as possibilidades sejam cobertas.
+
+Modo abreviado
+
+when (x) {
+    0, 1 -> print("x == 0 or x == 1")
+    else -> print("otherwise")
+}
+
+// Podemos ter funções, variáveis como os comparados de parametro
+ex.:
+
+val x = 10
+when (x) {
+    soma(5, 5) -> println("Soma de 5 + 5")
+    outraFuncao() -> println("Resultado da outraFuncao")
+    else -> println("Nenhum caso correspondente")
+}

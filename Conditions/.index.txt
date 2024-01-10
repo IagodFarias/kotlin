@@ -1,0 +1,34 @@
+
+
+
+// Uso comum do if
+var max = a
+if (a < b) max = b
+
+// Uso com else
+if (a > b) {
+    max = a
+} else {
+    max = b
+}
+
+// usa if para definir uma vairável
+var max = if (a > b) a else b
+
+// Uso do Else if
+val maxLimit = 1
+val maxOrLimit = if (maxLimit > a) maxLimit else if (a > b) a else b
+
+
+// O valor de resultado é o ultimo valor da expresão no bloco
+val resultado = if (condicao) {
+    // código aqui
+    42  // Esta é a última expressão no bloco
+} else {
+    // código aqui
+    23  // Esta é a última expressão no bloco
+}
+
+
+
+
